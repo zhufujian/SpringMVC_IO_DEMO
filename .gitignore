@@ -21,3 +21,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.settings/.jsdtscope
+.classpath
+.project
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
+.settings/org.eclipse.wst.common.component
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/org.eclipse.wst.jsdt.ui.superType.container
+.settings/org.eclipse.wst.jsdt.ui.superType.name
+.settings/org.eclipse.wst.validation.prefs
+.settings/org.jboss.ide.eclipse.as.core.prefs
+target/classes/applicationContext.xml
+target/classes/springmvc.xml
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+target/m2e-wtp/web-resources/META-INF/maven/com.study.demo/SpringMVC/pom.properties
+target/m2e-wtp/web-resources/META-INF/maven/com.study.demo/SpringMVC/pom.xml
+/target/
