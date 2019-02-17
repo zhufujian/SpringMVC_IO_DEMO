@@ -13,3 +13,4 @@ public class Bean02 extends Bean01{
 	}
 	
 }
+
