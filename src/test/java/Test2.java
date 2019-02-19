@@ -7,6 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.concurrent.locks.ReentrantLock;
 
 import org.junit.Test;
 
@@ -17,6 +18,8 @@ import com.studemo.demo.test.Transient_Bean02;
 public class Test2 {
 	  int lineNumber;
 	public static void main(String[] args) {
+		
+		RpcFramework
 		/*Transient_Bean02 userInfo = new Transient_Bean02("张三", "123456");  
          System.out.println(userInfo);  
          try {  
@@ -55,6 +58,7 @@ public class Test2 {
 	}
 	private static int a=1,b=2;
 	private void test(){
+		
 		System.out.println(lineNumber==0);
         add(a, b);
 		System.out.println(a);
