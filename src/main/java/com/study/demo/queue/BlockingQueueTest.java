@@ -1,9 +1,10 @@
 package com.study.demo.queue;
 
+import java.util.TreeMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingQueue; 
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class BlockingQueueTest {
  
@@ -23,7 +24,6 @@ public class BlockingQueueTest {
         service.execute(producer1);
         service.execute(producer2);
         service.execute(producer3);
- 
         // 执行10s
         Thread.sleep(10 * 1000);
         producer1.stop();
@@ -33,5 +33,8 @@ public class BlockingQueueTest {
         Thread.sleep(2000);
         // 退出Executor
         service.shutdown();
+    	
     }
+    
+   
 }
